@@ -1,0 +1,479 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins','Montserrat', sans-serif;
+}
+
+body > div{
+    width: 100%;
+}
+
+
+body > *{
+    padding: 0 2rem;
+}
+header{
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+    color: #FFF;
+}
+
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.headerText{
+    margin-block: 1rem;
+}
+
+.headerParagraph{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.enrollBtn{
+    display: inline-flex;
+    padding: .75rem 2rem;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: #DA722C;
+    margin: 32px 0 21px 0;
+    border: none;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.logo, .headerText{
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.ratingDiv{
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.ratingDiv > div{
+    width: 182px;
+    padding: .75rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    border-radius: 24px;
+    background: #FFF;
+    color: #023047;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-block: 4rem;
+    line-height: 125%; /* 37.5px */
+    box-shadow: 5px 10px 1px #6F7DFB;
+}
+
+.ratingContainer{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bolded{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.schoolGirl{
+    bottom: 10px;
+    width: min(80%, 300px);
+    display: block;
+}
+
+.section1{
+    padding-top: 100px;
+}
+
+.section1 > p{
+    color: #023047;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 32px */
+    width: 80%;
+    margin-inline: auto;
+}
+
+.sectionHeading{
+    color: #023047;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 36px */
+    margin-bottom: .75rem;
+    margin-inline: auto;
+    width: 80%;
+}
+
+.student{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFF;
+    box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 1.5rem;
+    margin: 2.25rem auto;
+}
+
+.studentInfo{
+    margin-inline: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -1rem;
+    gap: 1rem;
+    width: 85%;
+}
+
+.studentImg{
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    display: block;
+    background-image: url(assets/images/studentGirl.jpg);
+    background-size: cover;
+    background-position: center;
+    align-self: flex-start;
+}
+
+.student2Img{
+    background-image: url(assets/images/studentMale.jpg);
+}
+
+.statement{
+    display: flex;
+    padding: 1.5rem 2rem;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 24px;
+    background: #6F7DFB;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%; /* 27px */
+}
+
+.verticalDiv{
+    width: 28px;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #023047;
+    position: absolute;
+    bottom: 0px;
+    left: 60px;
+    z-index: -1;
+}
+
+.statement2{
+    background: #DA722C;
+}
+
+.studentInfoDetails{
+    padding-block: 2rem;
+    padding-inline: 0;
+    margin-right: auto;
+}
+
+.studentDivContent{
+    position: relative;
+    padding: .5rem;
+    margin-top: 2.5rem;
+    width: min(100%, 634px);
+    margin-inline: auto;
+}
+
+.learnMore, .allCourses{
+    display: block;
+    padding: .75rem 2rem;
+    align-items: flex-start;
+    margin-left: auto;
+    border-radius: 1.5rem;
+    background: #DA722C;
+    border: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-block: 4rem;
+}
+
+.btnWrapper{
+    width: 80%;
+    margin-inline: auto;
+}
+
+.allCourses{
+    margin-block: 1rem;
+}
+
+.courseDiv{
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+    padding-block: 4rem;
+}
+
+.gameContainer{
+    display: flex;
+    width: 100%;
+    margin-inline: auto;
+    gap: 5rem;
+    flex-wrap: auto;
+}
+
+.ourCourses{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 36px */
+}
+
+.game1{
+    display: flex;
+    padding: 0px 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    border-radius: 1.5rem;
+    background: #FFF;
+    margin-block: 4rem;
+    width: min(632px, 100%);
+    margin-inline: auto;
+}
+
+.gameImg{
+    height: 240px;
+    border-radius: 24px;
+    background-image: url(assets/images/mario.jpg);
+    background-position: center;
+    background-size: cover;
+    align-self: stretch;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.game2{
+    background-image: url(assets/images/gameImg2.jpg);
+}
+
+.gameTopic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    font-size: 12px;
+}
+
+.bottomDiv{
+    height: 8px;
+    align-self: stretch;
+    border-radius: 24px;
+    background: #023047;
+}
+
+.appDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-block: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.appDiv > p{
+    color: #023047;
+    text-align: center;
+    color: #023047;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 32px */
+}
+
+.appDivBtnWrapper > button{
+    display: flex;
+    padding: 12px 31px;
+    align-items: center;
+    gap: 14px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 48px */
+    background: #000;
+    border: none;
+    align-self: stretch;
+    width: min(100%, 350px);
+}
+
+.appDivBtnWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    flex-direction: row;
+    width: 100%;
+    margin-inline: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.appDivHeader{
+    color: #023047;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 36px */
+}
+
+.footer{
+    background: #070917;
+    padding-block: 3rem;
+    color: #FFF;
+    text-align: center;
+}
+
+.footerLinksWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 5rem;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.footer h3{
+    color: #DA722C;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%; /* 36px */
+}
+
+.footer a{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 32px */
+    text-decoration: none;
+}
+
+.quickLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.footer input{
+    display: block;
+    border: none;
+    padding: 1rem;
+    flex-shrink: 0;
+    border-radius: .5rem;
+    width: 100%;
+    margin: 1rem auto;
+    outline: none;
+}
+
+.footer input::placeholder, .footer input{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2em; /* 32px */
+}
+
+.footer button{
+    display: block;
+    width: min(135px, 50%);
+    border: none;
+    border-radius: 8px;
+    background: #023047;
+    color: #FFF;
+    padding: 1rem;
+    margin: auto;
+}
+
+.footerText{
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+}
+
+@media (min-width: 800px) {
+    body > div{
+        padding-inline: 100px;
+    }
+    header{
+        padding-inline: 100px;
+    }
+    .headerParagraph{
+        color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 32px */
+    }
+}
+
+@media (max-width: 800px) {
+    .footer button{
+        width: 100%;
+    }
+    .quickLinks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gameContainer{
+        gap: 0;
+        flex-wrap: wrap;
+    }
+}
+
+
